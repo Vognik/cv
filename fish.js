@@ -1,4 +1,5 @@
 window.onload = (function() {
+    $(".main").hide();
     var tank = document.getElementById("fishTank");
     var rfish = document.getElementById("red");
     var gfish = document.getElementById("green");
@@ -58,6 +59,11 @@ window.onload = (function() {
             farr = [];
     }                
 });	
+
 function showMore() {
     $(".details").fadeToggle("slow");
+}
+
+function showTank() {
+    $(".main").slideToggle("slow");
 }
