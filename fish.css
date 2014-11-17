@@ -93,6 +93,7 @@ body{
     margin:1%;
     border-radius:20px;
     box-shadow:0 0 15px 5px #ACC1D5;
+    margin-bottom: 0;
 }
 #mainAmount{
     color:steelBlue;
