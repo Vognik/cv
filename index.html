@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AquatiCV</title>
+        <link href="fish.css" rel="stylesheet" type="text/css">
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.5/jquery-ui.min.js"></script>	
+		<script src="fish.js"></script>
+	</head>
+	<body>
+		<div class="header">
+            <div class="headerLeft">
+                <p class="info">
+                    Alex Pavlenko<br>
+                    Kyiv, 23 years <br>
+                    email: svognik@gmail.com <br>
+                    skype: vogniks
+                </p>
+            </div>
+            <div class="headerMain">
+                <table class="headerMainTable">
+                    <tr>
+                        <td rowspan="2">Education:</td>
+                        <td>Kyiv National Economic University</td>                    
+                    </tr>
+                    <tr>
+                        <td>Business economics, Master's Degree</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Skills:</td>
+                        <td>HTML, CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript (jQuery, AJAX)</td>
+                    </tr>
+                    <tr>
+                        <td>PHP, MySQL</td>
+                    </tr>                           
+                </table>
+            </div>
+        </div> 
+        <div class="projects">
+            <h3>Projects</h3>
+            <div class="projectsList">
+                <p>Development project of static maps of public transportation for service eway.in.ua 
+                    <br><br>
+                    Technologies: PHP (GD Graphics library), MySQL, OSM
+                    <button type="button" class="more" onclick="showMore()">Details</button>
+                    <p class="details">
+                        Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL. 
+                        <br>
+                        Example:
+                        <a href="img/3_tram_.jpg" target="_blank">Scheme Lviv trams</a>                        
+                    </p>
+                </p>                
+            </div>
+        </div>   
+        <div class="main">
+        	<div id="buttons">
+            	<p class="message">Set up your own aquarium</p>
+        		<button type="button" id="1" onclick="add(this.id)">
+            		<img id="red" alt="Red fish" src="img/fish-red.png"/>
+	            </button>
+    	        <button type="button" id="2" onclick="add(this.id)">
+        	    	<img id="green" alt="Green fish" src="img/fish-green.png"/>
+            	</button>
+	            <button type="button" id="3" onclick="add(this.id)">
+    	        	<img id="blue" alt="Blue fish" src="img/fish-blue.png"/>
+        	    </button>
+            	<button type="button" id="4" onclick="add(this.id)">
+            		<img id="yellow" alt="Yellow fish" src="img/fish-yellow.png"/>            
+	            </button>
+            </div>
+            <div id="mainAmount">
+                Aquarium is empty
+            </div>
+            <div id="fishTank">
+            </div>
+            <br/>
+            <button type="button" id="clear" onclick="unfish()">Get fish out</button>         
+		</div>    
+	    <div class="footer">
+            <p>Hope you enjoyed!</p>        
+    	</div>              
+	</body>          
+</html>
