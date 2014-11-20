@@ -1,8 +1,8 @@
 body{
     padding:0;
     margin:0;
-    background-color:#DCE7FF;
     min-height:100%;
+    background:#F2F2FF;
 }	
 .header{
     border-bottom:1px solid #97B1CA;   
@@ -54,6 +54,16 @@ body{
 .header td[rowspan]{
     text-align: center;
 }
+.middleWrapper{
+    background-color:#DCE7FF;
+}
+.clearfix:after{
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
 .projects{
     float:left;
     display:inline-block;
@@ -96,7 +106,7 @@ body{
     margin-bottom: 0;
 }
 #mainAmount{
-    color:steelBlue;
+    color:#4682b4;
     font-size:14px;                
 }
 button{
@@ -144,7 +154,7 @@ button:focus{
 }
 .message{
     color:#A32900;
-    font-family: Georgia;
+    font-family:Georgia;
     font-size:22px;    
     text-shadow: 0 1px 1px #D59E8B;
     margin-top:40px;
@@ -155,7 +165,7 @@ button:focus{
     background:#66C2FF;
     border-radius:10px;
     color:white;
-    font-weight: bold;                
+    font-weight:bold;                
 }
 #clear:hover{
     background:#3399FF;
@@ -168,21 +178,22 @@ button:focus{
     width:100%;
     border-top:1px solid #97B1CA;
     text-align: center;
-    color:#5A4E6B;
+    color:#5A4E6B; 
+    height: 100%;
 }
 .footer a{
-    text-decoration: none;
+    text-decoration:none;
     color:#800000;
 }
 .footer a:hover{
     color:purple;
 }       
 .details{
-    display: none;
+    display:none;
 }
-.projects a{
+.details a{
     color:#e87373;
 }
-.projects a:hover{
+.details a:hover{
     color:#d04e4e;
 }

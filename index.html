@@ -39,56 +39,59 @@
                     </tr>                           
                 </table>
             </div>
-        </div> 
-        <div class="projects">
-            <h3>Apps</h3>
-            <div class="projectsList">
-                <p>Javascript aquarium. Just a small fish tank. 
-                    <br><br>
-                    Technologies: JS (jQuery)
-                </p> 
-                <button type="button" class="more" onclick="showTank()">Check it out!</button>               
-            </div>
-            <h3>Projects</h3>
-            <div class="projectsList">
-                <p>Development project of static maps of public transportation for service eway.in.ua 
-                    <br><br>
-                    Technologies: PHP (GD Graphics library), MySQL, OSM
-                </p> 
-                <button type="button" class="more" onclick="showMore()">Details</button>
-                <p class="details">
-                    Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL. 
-                    <br><br>
-                    Project output:
-                    <a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a>                        
-                </p>
-                               
-            </div>
-        </div>   
-        <div class="main">
-        	<div id="buttons">
-            	<p class="message">Set up your own aquarium</p>
-        		<button type="button" id="1" onclick="add(this.id)">
-            		<img id="red" alt="Red fish" src="img/fish-red.png"/>
-	            </button>
-    	        <button type="button" id="2" onclick="add(this.id)">
-        	    	<img id="green" alt="Green fish" src="img/fish-green.png"/>
-            	</button>
-	            <button type="button" id="3" onclick="add(this.id)">
-    	        	<img id="blue" alt="Blue fish" src="img/fish-blue.png"/>
-        	    </button>
-            	<button type="button" id="4" onclick="add(this.id)">
-            		<img id="yellow" alt="Yellow fish" src="img/fish-yellow.png"/>            
-	            </button>
-            </div>
-            <div id="mainAmount">
-                Aquarium is empty
-            </div>
-            <div id="fishTank">
-            </div>
-            <br/>
-            <button type="button" id="clear" onclick="unfish()">Get fish out</button>         
-		</div>    
+        </div>
+        <div class="middleWrapper clearfix">
+            <div class="projects">
+                <h3>Apps</h3>
+                <div class="projectsList">
+                    <p>Javascript aquarium. Just a small fish tank. 
+                        <br><br>
+                        Technologies: JS (jQuery)
+                    </p> 
+                    <button type="button" class="more" onclick="showTank()">Check it out!</button>               
+                </div>
+                <h3>Projects</h3>
+                <div class="projectsList">
+                    <p>Development project of static maps of public transportation for service eway.in.ua 
+                        <br><br>
+                        Technologies: PHP (GD Graphics library), MySQL, OSM
+                    </p> 
+                    <button type="button" class="more" onclick="showMore()">Details</button>
+                    <p class="details">
+                        Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL. 
+                        <br><br>
+                        Project output:
+                        <a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a>                        
+                    </p>
+
+                </div>
+            </div>   
+            <div class="main">
+                <div id="buttons">
+                    <p class="message">Set up your own aquarium</p>
+                    <button type="button" id="1" onclick="add(this.id)">
+                        <img id="red" alt="Red fish" src="img/fish-red.png"/>
+                    </button>
+                    <button type="button" id="2" onclick="add(this.id)">
+                        <img id="green" alt="Green fish" src="img/fish-green.png"/>
+                    </button>
+                    <button type="button" id="3" onclick="add(this.id)">
+                        <img id="blue" alt="Blue fish" src="img/fish-blue.png"/>
+                    </button>
+                    <button type="button" id="4" onclick="add(this.id)">
+                        <img id="yellow" alt="Yellow fish" src="img/fish-yellow.png"/>            
+                    </button>
+                </div>
+                <div id="mainAmount">
+                    Aquarium is empty
+                </div>
+                <div id="fishTank">
+                </div>
+                <br/>
+                <button type="button" id="clear" onclick="unfish()">Get fish out</button>         
+            </div>    
+            <div></div>
+        </div>
 	    <div class="footer">
             <p>Hope you enjoyed!</p>        
     	</div>              
