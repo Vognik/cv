@@ -47,16 +47,18 @@ window.onload = (function() {
 
         $(farr[i]).animate({left:zx + "px", top:zy+ "px"}, 3000, function(){
             if (farr.length > i) {
-            move(i)}
+                move(i)
+            }
         });
     }          
 
     unfish = function(){
         $(tank).fadeOut(1500, function() {
-            $(tank).fadeIn(1500)});
-            amount.innerHTML = "Aquarium is empty"
-            $(tank).empty();
-            farr = [];
+            $(tank).fadeIn(1500)
+        });
+        amount.innerHTML = "Aquarium is empty"
+        $(tank).empty();
+        farr = [];
     }                
 });	
 
