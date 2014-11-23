@@ -67,5 +67,6 @@ function showMore() {
 }
 
 function showTank() {
+    $(".main").css("visibility", "visible");
     $(".main").slideToggle("slow");
 }

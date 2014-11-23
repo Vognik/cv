@@ -104,6 +104,7 @@ body{
     border-radius:20px;
     box-shadow:0 0 15px 5px #ACC1D5;
     margin-bottom: 0;
+    visibility: hidden;
 }
 #mainAmount{
     color:#4682b4;
@@ -165,7 +166,7 @@ button:focus{
     background:#66C2FF;
     border-radius:10px;
     color:white;
-    font-weight:bold;                
+    font-weight:bold;   
 }
 #clear:hover{
     background:#3399FF;
