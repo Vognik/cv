@@ -194,6 +194,7 @@ button:focus{
 }
 .details a{
     color:#e87373;
+    float: right;
 }
 .details a:hover{
     color:#d04e4e;
