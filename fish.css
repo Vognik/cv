@@ -3,6 +3,7 @@ body{
     margin:0;
     min-height:100%;
     background:#F2F2FF;
+    font-family: Open Sans, sans-serif;
 }	
 .header{
     border-bottom:1px solid #97B1CA;   
@@ -22,10 +23,9 @@ body{
 .headerLeft .info{
     margin-top:20px;
     font-size:20px;
-    line-height: 1.5;
-    color:#64537E;
+    line-height: 2;
+    color:#4e5874;
     text-shadow: 0 1px 2px white;
-    font-family: Garamond;
     font-weight: bolder;
 }
 .headerMain{
@@ -38,9 +38,8 @@ body{
 }
 .headerMainTable{
     line-height: 1.5;
-    color:#435E6A;
+    color:#3f515a;
     text-shadow: 0 1px 1px white;
-    font-family: Garamond;
     padding:0;
     margin-left: 3%;
     text-align: left;                
@@ -78,6 +77,7 @@ body{
     text-align: center;
     color:#CC5200;
     text-shadow: 0 1px 1px lightgray;
+    font-size: 14px;
 }
 .projects>h3{
     text-decoration: underline;
@@ -95,6 +95,7 @@ body{
     margin: 0 auto;
 }
 .main{
+    position: relative;
     display:inline-block;
     width:69%;
     background-color:#F9F9FF; 
@@ -104,7 +105,7 @@ body{
     border-radius:20px;
     box-shadow:0 0 15px 5px #ACC1D5;
     margin-bottom: 0;
-    visibility: hidden;
+    z-index: 100;
 }
 #mainAmount{
     color:#4682b4;
@@ -143,7 +144,7 @@ button:focus{
     position:relative;
     margin-top:10px;
     display:inline-block;
-    background:#80E6E6;
+    background:#b6d6ed;
     width:600px;
     height:300px;				
 }
@@ -155,7 +156,6 @@ button:focus{
 }
 .message{
     color:#A32900;
-    font-family:Georgia;
     font-size:22px;    
     text-shadow: 0 1px 1px #D59E8B;
     margin-top:40px;
@@ -163,13 +163,13 @@ button:focus{
 #clear{
     width:150px;
     height:50px;
-    background:#66C2FF;
+    background:#87c9f5;
     border-radius:10px;
     color:white;
     font-weight:bold;   
 }
 #clear:hover{
-    background:#3399FF;
+    background:#51a2f4;
 }
 #clear:active{
     box-shadow: 0px 0px 10px orange;
@@ -198,4 +198,25 @@ button:focus{
 }
 .details a:hover{
     color:#d04e4e;
+}
+.addSkills{
+    line-height: 1.5;
+    color:#2a3d46;
+    text-shadow: 0 1px 1px white;
+    padding:0;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: left;  
+    width: 50%;
+    position: absolute;
+    right: 15%;
+    z-index: 10;
+}
+.addSkills td{
+    border:1px solid #97B1CA;
+    padding:15px 15px;
+    background:#eef3ff;
+}
+.addSkills td[rowspan]{
+    text-align: center;
 }
