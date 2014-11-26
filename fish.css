@@ -207,9 +207,9 @@ button:focus{
     margin-left: 3%;
     margin-top: 5%;
     text-align: left;  
-    width: 50%;
+    width: 58%;
     position: absolute;
-    right: 15%;
+    right: 11%;
     z-index: 10;
 }
 .addSkills td{
