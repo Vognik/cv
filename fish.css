@@ -79,16 +79,13 @@ body{
     text-shadow: 0 1px 1px lightgray;
     font-size: 14px;
 }
-.projects>h3{
-    text-decoration: underline;
-}
 .projectsList{
     background: #FFFFEC;
     padding:4%;
     text-align: left;
     border-radius: 15px;
-    box-shadow: 0 0 5px #97B1CA;
-    border:5px dashed #FF944D;
+    box-shadow: 0 0 3px #97B1CA;
+    border:3px solid #FF944D;
     color:#B24700;
 }
 .projectsList p{
