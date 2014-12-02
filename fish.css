@@ -46,7 +46,7 @@ body{
     background: #f8f8ff;
     padding:3px 10px;
 }
-.header td[rowspan]{
+td[rowspan]{
     text-align: center;
 }
 .middleWrapper{
@@ -215,10 +215,4 @@ button:focus{
 .addSkills td{
     padding:15px 15px;
     background:#F2F2FF;
-}
-.addSkills td[rowspan]{
-    text-align: center;
-}
-.addSkills tr:first-child td:first-child{
-    margin-top: 100px;
 }
