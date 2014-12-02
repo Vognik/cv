@@ -16,7 +16,7 @@ body{
     width:24%;
     padding-bottom: 0.5%;
     margin:1%;				
-    background:#DCE7FF;
+    background:#dee4f4;
     border-radius:10px;	
     text-align: center;
 }
@@ -54,7 +54,7 @@ body{
     text-align: center;
 }
 .middleWrapper{
-    background-color:#DCE7FF;
+    background-color:#dee4f4;
 }
 .clearfix:after{
    content: " ";
@@ -97,7 +97,7 @@ ul{
 }
 .activeBtn, .projectsList>li:hover{
     background: #FFFFEC;
-    border-bottom: 3px solid #FF944D;
+    border-bottom: 2px solid #FF944D;
 }
 .projectsList>li>ul{
     margin: 10px;
@@ -218,7 +218,7 @@ button:focus{
 .addSkills td{
     border:1px solid #97B1CA;
     padding:15px 15px;
-    background:#eef3ff;
+    background:#EEF1F8;
 }
 .addSkills td[rowspan]{
     text-align: center;
