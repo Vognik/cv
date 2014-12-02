@@ -6,7 +6,7 @@
         <link href="fish.css" rel="stylesheet" type="text/css">
         <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
 		<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.5/jquery-ui.min.js"></script>	
-		<script src="fish.js"></script>
+		
 	</head>
 	<body>
 		<div class="header">
@@ -41,28 +41,30 @@
         </div>
         <div class="middleWrapper clearfix">
             <div class="projects">
-                <h3>Projects</h3>
-                <div class="projectsList">
-                    <p>Development project of static maps of public transportation for service eway.in.ua 
-                        <br><br>
-                        Technologies: PHP (GD Graphics library), MySQL, OSM
-                    </p> 
-                    <button type="button" class="more" onclick="showMore()">Details</button>
-                    <p class="details clearfix">
-                        Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL. 
-                        <br><br>
-                        Project outputs:<br>
-                        <a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a>                        
-                    </p>
-                </div>
-                <h3>Apps</h3>
-                <div class="projectsList">
-                    <p>Javascript aquarium. Just a small fish tank. 
-                        <br><br>
-                        Technologies: JS (jQuery)
-                    </p> 
-                    <button type="button" class="more" onclick="showTank()">Check it out!</button>               
-                </div>
+                <h3>Projects & Apps</h3>
+                <ul class="projectsList">
+                    <li>Static maps
+                        <ul class="more">
+                            <li>Development of the project of static maps of public transportation for service eway.in.ua</li>
+                            <li>Technologies: PHP (GD Graphics library), MySQL, OSM</li>   
+                            <li>Project outputs:</li>
+                            <li class="clearfix"><a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a></li>
+                            <p class="details clearfix" style="display:none">
+                                Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL
+                            </p>
+                        </ul>
+                    </li>
+                    <li id="aquaBtn">Aquarium
+                        <ul class="more">
+                            <li>Technologies: JS (jQuery)</li>
+                        </ul>
+                    </li>
+                    <li>Number to Text Converter
+                        <ul class="more">
+                            <li>PHP open source: coming soon </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>   
             <table class="addSkills">
                 <tr>
@@ -117,6 +119,7 @@
                 email: svognik@gmail.com <br>
                 skype: vogniks
             </p>        
-    	</div>              
+    	</div>  
+        <script src="fish.js"></script>
 	</body>          
 </html>

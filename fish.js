@@ -66,7 +66,12 @@ function showMore() {
     $(".details").fadeToggle("slow");
 }
 
-function showTank() {
+$("#aquaBtn").click(function() {
     $(".main").css("visibility", "visible");
     $(".main").slideToggle("slow");
-}
+});
+
+$(".projectsList>li").click(function() {
+    $(this).children().fadeToggle("fast");
+    $(this).toggleClass("activeBtn");
+});
