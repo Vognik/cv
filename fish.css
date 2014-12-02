@@ -11,13 +11,9 @@ body{
 }
 .headerLeft{
     display:inline-block;
-    border-top:1px solid #97B1CA;
-    border-bottom: 1px solid #F8F8FF;
     width:24%;
     padding-bottom: 0.5%;
     margin:1%;				
-    background:#dee4f4;
-    border-radius:10px;	
     text-align: center;
 }
 .headerLeft .info{
@@ -47,8 +43,8 @@ body{
 }
 .header td{
     border:1px solid #97B1CA;
+    background: #f8f8ff;
     padding:3px 10px;
-    background:#F8F8FF;
 }
 .header td[rowspan]{
     text-align: center;
@@ -85,7 +81,7 @@ ul{
     padding: 0;
 }
 .projectsList{
-    background: #F5EFEA;
+    background:#F2F2FF;
     text-align: left;
     box-shadow: 0 0 3px #97B1CA;
     color:#B24700;
@@ -214,12 +210,15 @@ button:focus{
     position: absolute;
     right: 11%;
     z-index: 10;
+    border-collapse: collapse;
 }
 .addSkills td{
-    border:1px solid #97B1CA;
     padding:15px 15px;
-    background:#EEF1F8;
+    background:#F2F2FF;
 }
 .addSkills td[rowspan]{
     text-align: center;
+}
+.addSkills tr:first-child td:first-child{
+    margin-top: 100px;
 }
