@@ -40,17 +40,21 @@ body{
     margin-left: 3%;
     text-align: left;                
     width:80%;
+    border-collapse: collapse;
 }
 .header td{
-    border:1px solid #97B1CA;
-    background: #f8f8ff;
-    padding:3px 10px;
+    border-bottom:1px solid #97B1CA;
+    background: #fff;
+    padding:4px 10px;
 }
 td[rowspan]{
     text-align: center;
 }
 .middleWrapper{
-    background-color:#dee4f4;
+    background-color: #fff; 
+    background-image: 
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
 }
 .clearfix:after{
    content: " ";
@@ -84,7 +88,7 @@ ul{
     background:#F2F2FF;
     text-align: left;
     box-shadow: 0 0 3px #97B1CA;
-    color:#B24700;
+    color:#3f515a;
     list-style: none;
 }
 .projectsList>li{
@@ -92,6 +96,7 @@ ul{
     padding: 20px;
 }
 .activeBtn, .projectsList>li:hover{
+    color: #B24700;
     background: #FFFFEC;
     border-bottom: 2px solid #FF944D;
 }
@@ -187,17 +192,23 @@ button:focus{
     clear:both;
     width:100%;
     border-top:1px solid #97B1CA;
-    text-align: center;
-    color:#5A4E6B; 
+    color:#2b3c49; 
     height: 100%;
 }
-.footer a{
-    text-decoration:none;
-    color:#800000;
+.footer div{
+    margin-left: 3%;
+    margin-top: 1%;
+    padding-left: 40px;
+}    
+.footer .mail {
+    height: 23px;
+    background: url("img/result.png") no-repeat 0 3px;
 }
-.footer a:hover{
-    color:purple;
-}       
+.footer .skype {
+    padding-top: 2px;
+    height: 31px;
+    background: url("img/result.png") no-repeat 0 -23px;
+}
 .addSkills{
     line-height: 1.5;
     color:#2a3d46;
@@ -214,5 +225,4 @@ button:focus{
 }
 .addSkills td{
     padding:15px 15px;
-    background:#F2F2FF;
 }
