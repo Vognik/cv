@@ -127,7 +127,7 @@ ul a:hover{
     border-radius:20px;
     box-shadow:0 0 15px 5px #ACC1D5;
     margin-bottom: 0;
-    z-index: 100;
+    visibility: hidden;
 }
 #mainAmount{
     color:#4682b4;
@@ -220,7 +220,6 @@ button:focus{
     width: 58%;
     position: absolute;
     right: 11%;
-    z-index: 10;
     border-collapse: collapse;
 }
 .addSkills td{

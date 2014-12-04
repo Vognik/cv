@@ -1,5 +1,7 @@
-window.onload = (function() {
+window.onload = (function () {
+    $(".main").css("visibility", "visible");
     $(".main").hide();
+    
     var tank = document.getElementById("fishTank");
     var rfish = document.getElementById("red");
     var gfish = document.getElementById("green");
@@ -67,7 +69,6 @@ function showMore() {
 }
 
 $("#aquaBtn").click(function() {
-    $(".main").css("visibility", "visible");
     $(".main").slideToggle("slow");
 });
 
