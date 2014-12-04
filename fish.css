@@ -213,13 +213,12 @@ button:focus{
     line-height: 1.5;
     color:#2a3d46;
     text-shadow: 0 1px 1px white;
+    right: 20%;
     padding:0;
-    margin-left: 3%;
     margin-top: 5%;
     text-align: left;  
-    width: 58%;
+    width: 48%;
     position: absolute;
-    right: 11%;
     border-collapse: collapse;
 }
 .addSkills td{
