@@ -198,16 +198,17 @@ button:focus{
 .footer div{
     margin-left: 3%;
     margin-top: 1%;
-    padding-left: 40px;
+    padding-left: 35px;
 }    
 .footer .mail {
-    height: 23px;
-    background: url("img/result.png") no-repeat 0 3px;
+    height: 17px;
+    line-height: 12px;
+    background: url("img/result.png") no-repeat 0 0;
 }
 .footer .skype {
-    padding-top: 2px;
-    height: 31px;
-    background: url("img/result.png") no-repeat 0 -23px;
+    height: 26px;
+    line-height: 20px;
+    background: url("img/result.png") no-repeat 0 -19px;
 }
 .addSkills{
     line-height: 1.5;
