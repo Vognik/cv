@@ -9,15 +9,15 @@
 		
 	</head>
 	<body>
-		<div class="header">
-            <div class="headerLeft">
+		<header>
+            <section class="headerLeft">
                 <p class="info">
                     Alex Pavlenko<br>
                     Location: Kyiv, Ukraine<br>
                     Age: 23<br>
                 </p>
-            </div>
-            <div class="headerMain">
+            </section>
+            <section class="headerMain">
                 <table class="headerMainTable">
                     <tr>
                         <td rowspan="2">Education:</td>
@@ -37,9 +37,9 @@
                         <td>PHP, MySQL</td>
                     </tr>                           
                 </table>
-            </div>
-        </div>
-        <div class="middleWrapper clearfix">
+            </section>
+        </header>
+        <main class="middleWrapper clearfix">
             <div class="projects">
                 <h3>Projects & Apps</h3>
                 <ul class="projectsList">
@@ -69,11 +69,14 @@
             </div>   
             <table class="addSkills">
                 <tr>
-                    <td rowspan="3">Additional Skills:</td>
+                    <td rowspan="4">Additional Skills:</td>
                     <td>Familiar with git, Linux, Apache</td>   
                 </tr>
                 <tr>
                     <td>Familiar with OOP and MVC</td>
+                </tr>
+                <tr>
+                    <td>Familiar with Yii 2 framework </td>
                 </tr>
                 <tr>
                     <td>Familiar with Python</td>
@@ -117,11 +120,11 @@
                 <button type="button" id="clear" onclick="unfish()">Get fish out</button>         
             </div>    
             <div></div>
-        </div>
-	    <div class="footer">
+        </main>
+	    <footer>
             <div class="mail">svognik@gmail.com</div>
             <div class="skype">vogniks</div>    
-    	</div>  
+        </footer>  
         <script src="fish.js"></script>
 	</body>          
 </html>
