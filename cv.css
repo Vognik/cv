@@ -24,7 +24,6 @@ header li:first-child {
 }
 header li:hover {
 	background: #475c72;
-	font-size: 18px;
 }
 header li a {
 	padding: 0 40px;
