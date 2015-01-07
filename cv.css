@@ -24,9 +24,10 @@ header li:first-child {
 }
 header li:hover {
 	background: #475c72;
+	font-weight: bold;
 }
 header li a {
-	padding: 0 40px;
+	width: 180px;
 	display: block;
 	height: 50px;
 	text-decoration: none;
