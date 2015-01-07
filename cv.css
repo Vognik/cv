@@ -1,4 +1,4 @@
-* {
+body, html, header, main, ul, article, li, p, h2, h3{
 	padding: 0;
 	margin: 0;
 	font-family: "Arial";
@@ -12,20 +12,19 @@ body {
 }
 header {
 	width: 100%;
+	min-height: 1em;
 	height: 5vh;
 	line-height: 5vh;
 	background: #2C3E50;
 	text-align: center;
 }
-main {
-	height: 90vh;
-}
 header li {
+	min-height: 1em;
+	height: 5vh;
 	display: inline-block;
 	letter-spacing: 1px;
 	border-right: 1px solid white;
 	width: 180px;
-	height: 5vh;
 	color: white;
 }
 header li:first-child {
@@ -33,7 +32,6 @@ header li:first-child {
 }
 header li:hover {
 	background: #475c72;
-	font-weight: bold;
 	cursor: pointer;
 	height: 5.5vh;
 }
