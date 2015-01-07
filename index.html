@@ -2,129 +2,81 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Curriculum Vitae</title>
-        <link href="fish.css" rel="stylesheet" type="text/css">
-        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
-		<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.5/jquery-ui.min.js"></script>	
-		
+		<title>Junior Web Developer</title>
+		<link href="cv.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<header>
-            <section class="headerLeft">
-                <p class="info">
-                    Alex Pavlenko<br>
-                    Location: Kyiv, Ukraine<br>
-                    Age: 23<br>
-                </p>
-            </section>
-            <section class="headerMain">
-                <table class="headerMainTable">
-                    <tr>
-                        <td rowspan="2">Education:</td>
-                        <td>Kyiv National Economic University</td>                    
-                    </tr>
-                    <tr>
-                        <td>Business economics, Master's Degree</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="3">Skills:</td>
-                        <td>HTML, CSS</td>
-                    </tr>
-                    <tr>
-                        <td>Javascript (jQuery, AJAX)</td>
-                    </tr>
-                    <tr>
-                        <td>PHP, MySQL</td>
-                    </tr>                           
-                </table>
-            </section>
-        </header>
-        <main class="middleWrapper clearfix">
-            <div class="projects">
-                <h3>Projects & Apps</h3>
-                <ul class="projectsList">
-                    <li>Static maps
-                        <ul class="more">
-                            <li>Development of the project of static maps of public transportation for service eway.in.ua</li>
-                            <li>Technologies: PHP (GD Graphics library), MySQL, OSM</li>   
-                            <li>Project outputs:</li>
-                            <li class="clearfix"><a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a></li>
-                            <p class="details clearfix" style="display:none">
-                                Creation of road maps based on OSM tiles and drawing routes of public transportation via PHP and MySQL
-                            </p>
-                        </ul>
-                    </li>
-                    <li id="aquaBtn">Aquarium
-                        <ul class="more">
-                            <li>Technologies: JS (jQuery)</li>
-                        </ul>
-                    </li>
-                    <li>Number to Text Converter
-                        <ul class="more">
-                            <li>PHP open source: </li>
-                            <li class="clearfix"><a href="https://github.com/Vognik/NumberToText" target="_blank">GitHub Converter Page</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>   
-            <table class="addSkills">
-                <tr>
-                    <td rowspan="4">Additional Skills:</td>
-                    <td>Familiar with git, Linux, Apache</td>   
-                </tr>
-                <tr>
-                    <td>Familiar with OOP and MVC</td>
-                </tr>
-                <tr>
-                    <td>Familiar with Yii 2 framework </td>
-                </tr>
-                <tr>
-                    <td>Familiar with Python</td>
-                </tr>
-                <tr>
-                    <td></td><td></td>
-                </tr>
-                <tr>
-                    <td rowspan="3">Languages:</td>
-                    <td>Ukrainian (native)</td>
-                </tr>
-                <tr>
-                    <td>Russian (fluent)</td>
-                </tr>
-                <tr>
-                    <td>English (Upper-Intermediate)</td>
-                </tr>                           
-            </table>
-            <div class="main">
-                <div id="buttons">
-                    <p class="message">Set up your own aquarium</p>
-                    <button type="button" id="1" onclick="add(this.id)">
-                        <img id="red" alt="Red fish" src="img/fish-red.png"/>
-                    </button>
-                    <button type="button" id="2" onclick="add(this.id)">
-                        <img id="green" alt="Green fish" src="img/fish-green.png"/>
-                    </button>
-                    <button type="button" id="3" onclick="add(this.id)">
-                        <img id="blue" alt="Blue fish" src="img/fish-blue.png"/>
-                    </button>
-                    <button type="button" id="4" onclick="add(this.id)">
-                        <img id="yellow" alt="Yellow fish" src="img/fish-yellow.png"/>            
-                    </button>
-                </div>
-                <div id="mainAmount">
-                    Aquarium is empty
-                </div>
-                <div id="fishTank">
-                </div>
-                <br/>
-                <button type="button" id="clear" onclick="unfish()">Get fish out</button>         
-            </div>    
-            <div></div>
-        </main>
-	    <footer>
-            <div class="mail">svognik@gmail.com</div>
-            <div class="skype">vogniks</div>    
-        </footer>  
-        <script src="fish.js"></script>
-	</body>          
+			<div class="middleWrapper">
+				<nav>
+					<ul>
+						<li><a href="#cv">Home</a></li><li><a href="#js">JavaScript</a></li><li><a href="#php">PHP</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="middleWrapper">
+				<section id="cv">
+					<a class="pdf" href="files/Junior%20Web%20Developer%20Pavlenko.pdf" title="Download PDF" target="_blank" download><img src="img/pdf-icon.png"></a>
+					<h2 class="name">Alex Pavlenko</h3>
+					<table class="contacts">
+						<tr>
+							<td>Skype</td>
+							<td>vognik</td>
+						</tr>
+						<tr>
+							<td>E-mail</td>
+							<td><a href="mailto:svognik@gmail.com">svognik@gmail.com</a></td>
+						</tr>
+						<tr>
+							<td>GitHub</td>
+							<td><a href="https://github.com/Vognik" target="_blank">github.com/vognik</a></td>
+						</tr>
+						<tr>
+							<td>Location</td>
+							<td>Kyiv, Ukraine</td>
+						</tr>
+					</table>
+					<article class="objective">
+						<h3>Objective</h3>
+						<p>To obtain a Junior Web Developer position.</p>
+					</article>
+					<article class="experience">
+						<h3>Experience</h3>
+						<p><span class="date">2014</span> Development of a project of static maps of public transportation for online service <a href="http://www.eway.in.ua/" target="_blank">eway.in.ua</a>. Engaged in the technical part of the project (90% code): starting from UI and database interaction and ending with work with the quality of the final image.</p>
+							<p><strong>Technologies: PHP, MySQL, OpenStreetMap.</strong></p>
+							<p>Output: <a href="http://static-maps.easyway.info/" target="_blank">static-maps.easyway.info</a></p>
+					</article>
+					<article class="skills">
+						<h3>Skills</h3>
+						<ul>
+							<li>PHP, MySQL.</li>
+							<li>JavaScript(jQuery, AJAX).</li>
+							<li>HTML / CSS.</li>
+							<li>Familiar with OOP and MVC.</li>
+						</ul>
+					</article>
+					<article class="languages">
+						<h3>Languages</h3>
+						<ul>
+							<li>English - Upper-Intermediate.</li>
+							<li>Ukrainian - native.</li>
+							<li>Russian - fluent.</li>
+						</ul>
+					</article>
+					<article class="education">
+						<h3>Education</h3>
+						<p class="date">2008-2013</p>
+						<p>Kyiv National Economic University<br>
+						Business economics, Master's Degree</p>
+					</article>
+				</section>
+				<section id="js">
+				</section>
+				<section id="php">
+				</section>
+			</div>
+		</main>
+	</body>
 </html>
