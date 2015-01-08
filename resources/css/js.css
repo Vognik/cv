@@ -1,0 +1,87 @@
+#fishAmount {
+    color: #4682b4;
+    font-size: 0.9em;                
+}
+button {
+    background: none;
+    border: none;
+    margin: 1.2em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+#fish button:hover {
+	background: #92b5ce;
+    border-radius: 10px;
+}
+#fish button:active, #clear:active {
+    border-radius: 5px;
+}
+#fishTank {
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+    background: #92b5ce;
+    width: 600px;
+    height: 300px;				
+}
+.flipped {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.message {
+    color: #2C3E50;
+    font-size: 1.2em;    
+}
+#clear {
+    width: 10em;
+    height: 3em;
+    background: #2C3E50;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+#clear:hover {
+    background: #6c9dd6;
+	color: #1d4560;
+}
+#math>div {
+	padding: 20px 0;
+}
+.types label {
+	margin-left: 20px;
+}
+.condition input {
+	width: 100px;
+	border: none;
+	font-size: 60px;
+	font-weight: 400;
+	text-align: center;
+}
+.condition #operator {
+	width: 40px;
+}
+.results>div {
+	padding: 10px 0;
+}
+#correct, #wrong {
+	font-size: 18px;
+	border: none;
+	margin-left: 10px;
+	width: 40px;
+}
+.results #validation {
+	background: #f7e4e4;
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 1px solid #db4040;
+	display: none;
+}
+.results #validation h3 {
+	margin: 0;
+}
