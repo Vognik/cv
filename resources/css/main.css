@@ -38,6 +38,53 @@ header li:hover {
 }
 #home article {
 	text-align: left;
+	margin-top: 5vh;
+}
+#home p {
+	font-family: Open Sans, Arial, sans-serif;
+	text-indent: 20px;
+	margin: 0.5em auto;
+}
+#home p:last-child {
+	margin-top: 5vh;
+}
+#home li {
+	margin: 1em 0 1em 10%;
+	width: 45%;
+	height: 3em;
+	padding: 0.5em;
+	list-style: none;
+	font-family: Open Sans, Arial, sans-serif;
+	box-shadow: -40px 0 0 -25px #4f657d;
+	transition-property: border-radius, box-shadow;
+	transition-duration: 0.5s;
+}
+#home li:hover {
+	cursor: pointer;
+	width: 60%;
+}
+#home a {
+	text-decoration: none;
+	color: inherit;
+}
+#home ul li span {
+	display: none;
+}
+#home ul li:hover {
+	box-shadow: -45px 0 0 -20px #4f657d;
+	border-radius: 100px;
+}
+#home ul li:hover span {
+	display: inline;
+}
+#home ul li:last-child {
+	position: relative;
+}
+#home ul li:last-child img {
+	position: absolute;
+}
+#home ul li:last-child:hover {
+	width: 45%;
 }
 header nav .active {
 	height: 5.5vh;
