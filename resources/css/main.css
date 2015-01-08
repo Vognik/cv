@@ -18,14 +18,15 @@ header {
 	text-align: center;
 	background-image: linear-gradient(to bottom, #364c63 0px, #243342 100%);
 }
-header li {
+header li, header a {
 	min-height: 1em;
 	height: 5vh;
 	display: inline-block;
 	letter-spacing: 1px;
 	border-right: 1px solid white;
-	width: 180px;
+	width: 170px;
 	color: white;
+	text-decoration: none;
 }
 header li:first-child {
 	border-left: 1px solid white;
@@ -35,8 +36,10 @@ header li:hover {
 	cursor: pointer;
 	height: 5.5vh;
 }
+#home article {
+	text-align: left;
+}
 #cv {
-	display: block;
 	width: 600px;
 	margin: 15px auto;
 	box-shadow: 0 0 10px 0 #8d9093;
@@ -103,10 +106,10 @@ header nav .active {
 	font-weight: bold;
 	box-shadow: 0 0 5px 0 #3b3b3e;
 }
-section, #math, #textToN {
+#math, #convert {
 	display: none;
 }
-#js, #php {
+#js, #php, #home {
 	margin: 2.5vh auto;
 	text-align: center;
 }
@@ -125,11 +128,11 @@ section nav li{
 	text-shadow: 0 1px 1px lightgray;
 }
 #js nav li:hover, #php nav li:hover, .active-app {
-	box-shadow: inset 0 -5px 0 0 #2C3E50;
+	box-shadow: inset 0 -3px 0 0 #2C3E50;
 	color:#CC5200;
 	cursor: pointer;
 }
-#fish, #math, #maps, #textToN {
+#fish, #math, #maps, #convert {
 	margin-top: 5vh;
 }
 #php div h3 {
