@@ -15,8 +15,8 @@ header {
 	min-height: 1em;
 	height: 5vh;
 	line-height: 5vh;
-	background: #2C3E50;
 	text-align: center;
+	background-image: linear-gradient(to bottom, #364c63 0px, #243342 100%);
 }
 header li {
 	min-height: 1em;
@@ -31,7 +31,7 @@ header li:first-child {
 	border-left: 1px solid white;
 }
 header li:hover {
-	background: #475c72;
+	background-image: linear-gradient(to bottom, #4f657d 0px, #3b4c5e 100%);
 	cursor: pointer;
 	height: 5.5vh;
 }
@@ -99,10 +99,11 @@ header li:hover {
 header nav .active {
 	height: 5.5vh;
 	background: #eb884a;
+	background-image: linear-gradient(to bottom, #ed955e 0px, #e87730 100%);
 	font-weight: bold;
 	box-shadow: 0 0 5px 0 #3b3b3e;
 }
-section, #math {
+section, #math, #textToN {
 	display: none;
 }
 #js, #php {
@@ -116,17 +117,36 @@ section, #math {
     text-shadow: 0 1px 1px lightgray;
     font-size: 1.1em;
 }
-section nav li, section nav li {
+section nav li{
     display: inline-block;
 	padding: 10px;
 	width: 25%;
 	color:#cb8353;
 	text-shadow: 0 1px 1px lightgray;
 }
-#js nav li:hover, #php nav li:hover, #js .active-app {
+#js nav li:hover, #php nav li:hover, .active-app {
 	box-shadow: inset 0 -5px 0 0 #2C3E50;
 	color:#CC5200;
 	cursor: pointer;
+}
+#fish, #math, #maps, #textToN {
+	margin-top: 5vh;
+}
+#php div h3 {
+	color: #2C3E50;
+	font-size: 1.1em;
+	margin: 20px;
+}
+#php div a {
+	color:#cb8353;
+	text-shadow: 0 1px 1px lightgray;
+	text-decoration: none;
+}
+#php div a:hover {
+	color:#CC5200;
+}
+#php div p {
+	text-align: left;
 }
 
 /* AQUARIUM CSS */
@@ -168,7 +188,6 @@ button:focus {
 .message {
     color: #2C3E50;
     font-size: 1.2em;    
-    margin-top: 10vh;
 }
 #clear {
     width: 10em;
@@ -184,35 +203,32 @@ button:focus {
 }
 
 /*MATH CSS*/
-#math .exercise {
-	margin-top: 10vh;
-}
-#math>div{
+#math>div {
 	padding: 20px 0;
 }
-.types label{
+.types label {
 	margin-left: 20px;
 }
-.condition input{
+.condition input {
 	width: 100px;
 	border: none;
 	font-size: 60px;
 	font-weight: 400;
 	text-align: center;
 }
-.condition #operator{
+.condition #operator {
 	width: 40px;
 }
-.results>div{
+.results>div {
 	padding: 10px 0;
 }
-#correct, #wrong{
+#correct, #wrong {
 	font-size: 18px;
 	border: none;
 	margin-left: 10px;
 	width: 40px;
 }
-.results #validation{
+.results #validation {
 	background: #f7e4e4;
 	width: 400px;
 	margin: 0 auto;
@@ -220,6 +236,6 @@ button:focus {
 	border: 1px solid #db4040;
 	display: none;
 }
-.results #validation h3{
+.results #validation h3 {
 	margin: 0;
 }
