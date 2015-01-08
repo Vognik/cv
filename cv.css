@@ -36,6 +36,7 @@ header li:hover {
 	height: 5.5vh;
 }
 #cv {
+	display: block;
 	width: 600px;
 	margin: 15px auto;
 	box-shadow: 0 0 10px 0 #8d9093;
@@ -92,6 +93,133 @@ header li:hover {
 	clear: both;
 	display: block;
 }
-#cv .pdf{
+#cv .pdf {
 	float: right;
+}
+header nav .active {
+	height: 5.5vh;
+	background: #eb884a;
+	font-weight: bold;
+	box-shadow: 0 0 5px 0 #3b3b3e;
+}
+section, #math {
+	display: none;
+}
+#js, #php {
+	margin: 2.5vh auto;
+	text-align: center;
+}
+#js h2, #php h2 {
+	padding: 10px;
+    text-align: center;
+    color:#CC5200;
+    text-shadow: 0 1px 1px lightgray;
+    font-size: 1.1em;
+}
+section nav li, section nav li {
+    display: inline-block;
+	padding: 10px;
+	width: 25%;
+	color:#cb8353;
+	text-shadow: 0 1px 1px lightgray;
+}
+#js nav li:hover, #php nav li:hover, #js .active-app {
+	box-shadow: inset 0 -5px 0 0 #2C3E50;
+	color:#CC5200;
+	cursor: pointer;
+}
+
+/* AQUARIUM CSS */
+#mainAmount {
+    color: #4682b4;
+    font-size: 0.9em;                
+}
+button {
+    background: none;
+    border: none;
+    margin: 1.2em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+#fish button:hover {
+	background: #92b5ce;
+    border-radius: 10px;
+}
+#fish button:active, #clear:active {
+    border-radius: 5px;
+}
+#fishTank {
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+    background: #92b5ce;
+    width: 600px;
+    height: 300px;				
+}
+.flipped {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.message {
+    color: #2C3E50;
+    font-size: 1.2em;    
+    margin-top: 10vh;
+}
+#clear {
+    width: 10em;
+    height: 3em;
+    background: #2C3E50;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+#clear:hover {
+    background: #6c9dd6;
+	color: #1d4560;
+}
+
+/*MATH CSS*/
+#math .exercise {
+	margin-top: 10vh;
+}
+#math>div{
+	padding: 20px 0;
+}
+.types label{
+	margin-left: 20px;
+}
+.condition input{
+	width: 100px;
+	border: none;
+	font-size: 60px;
+	font-weight: 400;
+	text-align: center;
+}
+.condition #operator{
+	width: 40px;
+}
+.results>div{
+	padding: 10px 0;
+}
+#correct, #wrong{
+	font-size: 18px;
+	border: none;
+	margin-left: 10px;
+	width: 40px;
+}
+.results #validation{
+	background: #f7e4e4;
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 1px solid #db4040;
+	display: none;
+}
+.results #validation h3{
+	margin: 0;
 }

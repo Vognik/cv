@@ -10,7 +10,7 @@
 			<div class="middleWrapper">
 				<nav>
 					<ul>
-						<li>Resume</li><li>JavaScript</li><li>PHP</li>
+						<li class="active" name="cv">Resume</li><li class="navJS" name="js">JavaScript</li><li name="php">PHP</li>
 					</ul>
 				</nav>
 			</div>
@@ -73,10 +73,78 @@
 					</article>
 				</section>
 				<section id="js">
+					<h2>JavaScript Code Examples & Apps</h2>
+					<nav>
+						<ul>
+							<li class="active-app" name="fish">Aquarium</li><li name="math">Math Test</li>
+						</ul>
+					</nav>
+					<div id="fish">
+						<div id="buttons">
+							<p class="message">Set up your own aquarium</p>
+							<button type="button" id="1" onclick="add(this.id)">
+								<img id="red" alt="Red fish" src="img/fish-red.png"/>
+							</button>
+							<button type="button" id="2" onclick="add(this.id)">
+								<img id="green" alt="Green fish" src="img/fish-green.png"/>
+							</button>
+							<button type="button" id="3" onclick="add(this.id)">
+								<img id="blue" alt="Blue fish" src="img/fish-blue.png"/>
+							</button>
+							<button type="button" id="4" onclick="add(this.id)">
+								<img id="yellow" alt="Yellow fish" src="img/fish-yellow.png"/>            
+							</button>
+						</div>
+						<div id="mainAmount">
+							Aquarium is empty
+						</div>
+						<div id="fishTank">
+						</div>
+						<br/>
+						<button type="button" id="clear">Get fish out</button> 
+					</div>
+					<div id="math">
+						<div class="exercise">
+							<div class="condition">
+								<input id="num1" readonly>
+								<input id="operator" readonly>
+								<input id="num2" readonly>
+							</div>
+						</div>
+						<div class="results">
+							<div id="validation">
+								<h3>Your answer is invalid</h3> 
+								Please enter only natural numbers. Round value to nearest integer if necessary.
+							</div>
+							<label>
+								Your answer:
+								<input type="text" pattern="^(?:0|[1-9][0-9]*)$" id="answer" title="Enter only natural numbers">
+							</label>
+							<input type="button" value="Check" onclick="check()">
+							<div>
+								<label>Correct Answers:<input value="0" id="correct" readonly></label>
+							</div>
+							<div>
+								<label>Wrong Answers:<input value="0" id="wrong" readonly></label>
+							</div>
+						</div>
+						<div class="types">
+							<label><input type="checkbox" name="operation" value="+" checked>Addition</label>
+							<label><input type="checkbox" name="operation" value="-" checked>Subtraction</label>
+							<label><input type="checkbox" name="operation" value="*" checked>Multiplication</label>
+							<label><input type="checkbox" name="operation" value="/" checked>Division</label>
+						</div>
+			</div>
+					</div>
 				</section>
 				<section id="php">
+					<h2>PHP Projects & Apps</h2>
 				</section>
 			</div>
 		</main>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/fish.js" type="text/javascript"></script>
+		<script src="js/math.js" type="text/javascript"></script>
 	</body>
 </html>

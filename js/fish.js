@@ -1,6 +1,3 @@
-$(".main").css("visibility", "visible");
-$(".main").hide();
-
 var tank, rfish, gfish, bfish, yfish, farr, mx, my, amount, zx, zy;
 tank = document.getElementById("fishTank");
 rfish = document.getElementById("red");
@@ -61,13 +58,4 @@ $("#clear").click(function () {
 	amount.innerHTML = "Aquarium is empty";
 	$("#fishTank").empty();
 	farr = [];
-});
-
-$("#aquaBtn").click(function () {
-	$(".main").slideToggle("slow");
-});
-
-$(".projectsList>li").click(function () {
-	$(this).children().fadeToggle("fast");
-	$(this).toggleClass("activeBtn");
 });
