@@ -40,7 +40,7 @@ header li:hover {
 	text-align: left;
 	margin-top: 3em;
 }
-#home p {
+#home p, #php p {
 	font-family: Open Sans, Arial, sans-serif;
 	text-indent: 20px;
 	margin: 0.5em auto;
@@ -98,10 +98,10 @@ header li:hover {
 	top: -36px;
 	z-index: -2;
 	transition: left 1s 0.5s;
+	background: url("images/horse.png") no-repeat;
 }
 #home ul li:last-child:hover div {
 	left: -85px;
-	background: url("images/horse.png") no-repeat;
 }
 #home ul li:last-child:hover {
 	width: 45%;
