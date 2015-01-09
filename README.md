@@ -1,3 +1,3 @@
-cv
+Demo website
 ==
-You can find this CV here: http://vognik.github.io/cv/
+Link: http://vognik.github.io/
