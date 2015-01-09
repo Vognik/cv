@@ -38,7 +38,7 @@ header li:hover {
 }
 #home article {
 	text-align: left;
-	margin-top: 5vh;
+	margin-top: 3em;
 }
 #home p {
 	font-family: Open Sans, Arial, sans-serif;
@@ -46,7 +46,7 @@ header li:hover {
 	margin: 0.5em auto;
 }
 #home ul+p {
-	margin-top: 5vh;
+	margin-top: 3em;
 }
 #home li {
 	margin: 1em 0 1em 10%;
@@ -96,7 +96,7 @@ header nav .active {
 	display: none;
 }
 #js, #php, #home {
-	margin: 2.5vh auto;
+	margin: 1.5em auto;
 	text-align: center;
 }
 #js h2, #php h2 {
