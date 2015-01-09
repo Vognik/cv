@@ -30,6 +30,17 @@
 					<div id="convert">
 						<h3>Open-source application intended to convert numbers into words</h3>
 						<p>Allows easily convert integers between -999 999 999 and 999 999 999 into words in English, Ukrainian or Russian.</p>
+						<p>There are 3 main classes (1 class for each language), to convert number you should use convertNumber method:</p>
+						<p class="code">	
+							<code>
+								<span class="func">echo</span> ConvertToEnglish::convertNumber(<span class="int">1234</span>);<br> 
+								<span class="comment">// outputs "one thousand two hundred and thirty-four"</span><br><br>
+								<span class="func">echo</span> ConvertToUkrainian::convertNumber(<span class="int">1234</span>);<br> 
+								<span class="comment">// outputs "одна тисяча двісті тридцять чотири"</span><br><br>
+								<span class="func">echo</span> ConvertToRussian::convertNumber(<span class="int">1234</span>);<br> 
+								<span class="comment">// outputs "одна тысяча двести тридцать четыре"</span>
+							</code>
+						</p>	
 						<p>Source code: <a href="https://github.com/Vognik/NumberToText" target="_blank">github.com/Vognik/NumberToText</a></p>
 					</div>
 				</section>

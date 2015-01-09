@@ -157,3 +157,18 @@ section nav li{
 #php div p {
 	text-align: left;
 }
+#php .code {
+	text-indent: 0;
+	padding: 0 10%;
+	margin-bottom: 2em;
+	background-color: #F7F7F7;
+}
+#php code .func {
+	color: #3c619d;
+}
+#php code .int {
+	color: #508435;
+}
+#php code .comment {
+	color: #808080;
+}
