@@ -13,14 +13,13 @@ body {
 header {
 	width: 100%;
 	min-height: 1em;
-	height: 5vh;
-	line-height: 5vh;
+	height: 2.9em;
 	text-align: center;
 	background-image: linear-gradient(to bottom, #364c63 0px, #243342 100%);
 }
 header li, header a {
-	min-height: 1em;
-	height: 5vh;
+	line-height: 2.9em;
+	height: 2.9em;
 	display: inline-block;
 	letter-spacing: 1px;
 	border-right: 1px solid white;
@@ -34,7 +33,7 @@ header li:first-child {
 header li:hover {
 	background-image: linear-gradient(to bottom, #4f657d 0px, #3b4c5e 100%);
 	cursor: pointer;
-	height: 5.5vh;
+	height: 3.2em;
 }
 #home article {
 	text-align: left;
@@ -86,7 +85,7 @@ header li:hover {
 	width: 45%;
 }
 header nav .active {
-	height: 5.5vh;
+	height: 3.2em;
 	background: #eb884a;
 	background-image: linear-gradient(to bottom, #ed955e 0px, #e87730 100%);
 	font-weight: bold;
