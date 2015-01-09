@@ -15,6 +15,7 @@ header {
 	min-height: 1em;
 	height: 2.9em;
 	text-align: center;
+	background: #364c63;
 	background-image: linear-gradient(to bottom, #364c63 0px, #243342 100%);
 }
 header li, header a {
