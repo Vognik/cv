@@ -80,6 +80,7 @@ header li:hover {
 }
 #home ul li:last-child img {
 	position: absolute;
+	display: none;
 }
 #home ul li:last-child:hover {
 	width: 45%;
