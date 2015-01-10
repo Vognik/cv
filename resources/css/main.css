@@ -95,11 +95,11 @@ header li:hover {
 	position: absolute;
 	height: 100px;
 	width: 45%;
-	left: 0;
+	left: 42px;
 	top: -36px;
 	z-index: -2;
-	-webkit-transition: left 1s 0.5s;
-	transition: left 1s 0.5s;
+	-webkit-transition: left 1.5s;
+	transition: left 1.5s;
 	background: url("images/horse.png") no-repeat;
 }
 #home ul li:last-child:hover div {
